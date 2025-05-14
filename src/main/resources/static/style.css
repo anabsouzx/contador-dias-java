@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    text-align: center;
+}
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #2c3e50;
+}
+#resultadoContador p {
+    font-size: 1.8em;
+    color: #27ae60;
+    font-weight: bold;
+    margin: 20px 0;
+}
+#resultadoContador .mensagem-especial {
+    color: #e67e22;
+}
+#botaoRecarregar {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #757575; /* Azul */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#botaoRecarregar:hover {
+    background-color: #007BFF; /* Azul mais escuro #0056b3*/
+}
+#botaoRecarregar:active {
+    background-color: #0056b3; /* Azul ainda mais escuro ao clicar #004085*/
+}
+span {
+    font-weight: bold;
+}
