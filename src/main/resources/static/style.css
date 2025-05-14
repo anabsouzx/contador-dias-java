@@ -31,17 +31,17 @@ h1 {
     padding: 10px 20px;
     font-size: 16px;
     color: white;
-    background-color: #757575; /* Azul */
+    background-color: #757575;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 #botaoRecarregar:hover {
-    background-color: #007BFF; /* Azul mais escuro #0056b3*/
+    background-color: #007BFF;
 }
 #botaoRecarregar:active {
-    background-color: #0056b3; /* Azul ainda mais escuro ao clicar #004085*/
+    background-color: #0056b3;
 }
 span {
     font-weight: bold;
